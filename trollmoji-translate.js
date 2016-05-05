@@ -3,7 +3,7 @@ var SYMBOLS = '!"#$%&\'()*+,-./:;<=>?@[]^_`{|}~';
 
 (function() {
   var request = new XMLHttpRequest();
-  request.open('GET', chrome.extension.getURL('/emojis.json'), true);
+  request.open('GET', chrome.extension.getURL('/trollmojis.json'), true);
   request.onload = function() {
     if (request.status >= 200 && request.status < 400) {
       allEmojis = JSON.parse(request.response);
