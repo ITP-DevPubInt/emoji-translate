@@ -1,43 +1,29 @@
-## emoji-translate
+## trollmoji
 
-You know how sometimes you type English and it has all these letters and words and no emoji? Yeah, emoji-translate fixes that.
+This is a Chrome extension that translates nasty troll terms into 💕emojis✨. 
 
-## Packaged demos
-![omg emoji](https://cloud.githubusercontent.com/assets/1369170/8635052/e333474e-27c7-11e5-8af8-5b0bc2281095.gif)
+It's not about sanitizing, but making your browser a place with less hate and more 🌺 🐣 🙊 🐳. 
 
-This is what you actually want, right? Can't blame you. [Here](http://meowni.ca/emoji-translate) you go. 👏
+Read that article, scan the comments, and be free of the hate speech and threatening language of internet trolls. 
 
-There's also a Chrome  [extension](https://chrome.google.com/webstore/detail/emoji-translate/kkkfndlpdajmbgofkidemhkjoinhmojl) that lets you translate any page on the internet to emoji. Your nightmares are finally over.
+And remember, DON'T FEED THE TROLLS. 
 
-## Emoji-translate as a library
-You can also use this as a standalone library for your own translation purposes.
 
-### Install
-```
-bower install emoji-translate
-```
+## Install
 
-### Usage
-When `emoji-translate.js` is loaded, it will load json of emoji names and keywords, save it in a global called `allEmojis`, and fire an `emoji-ready` event. `allEmojis` has this structure:
-```json
-{
-  "grinning": {
-    "keywords": ["face", "smile", "happy", "joy"],
-    "char": "😀",
-    "category": "people"
-  },
-  "grin": {
-    "keywords": ["face", "happy", "smile", "joy"],
-    "char": "😁",
-    "category": "people"
-  },
-  ...
-}
-```
-The `emoji-translate` api has 2 methods:
-  * `getMeAnEmoji(word)` -- returns the emoji translation of the english `word`, or the empty string if one doesn't exist.
-  * `translateWord(word)` -- returns a `<span>` element that contains either the
-  original english `word`, or the emoji translation, ready for display.
+Pull down zip file. Unzip. 
 
-## ❤
-This was made as part of an ⚡️emoji hackday⚡️ and  is powered by [emojilib](https://github.com/muan/emojilib), a magical `json` file of emoji names and keywords y'all should use in all your projects.
+In your Chrome browser, select "More Tools." Select "Extensions."
+
+Select "Load unpacked extension..." and choose the unzipped file. 
+
+
+## Usage
+
+Click the troll icon in your browser to trollmoji a page. 
+
+If you have suggestions for new words or phrases to add to the library, get at us at trollmoji@gmail.com. 
+
+
+##
+This was made with [emojilib](https://github.com/muan/emojilib) and [emoji-translate](https://github.com/notwaldorf/emoji-translate).
