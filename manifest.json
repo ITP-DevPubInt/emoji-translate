@@ -3,7 +3,7 @@
 
   "name" : "Trollmoji",
   "description" : "Turns nasty troll terms into 😍 💕 🐙 🐬 ✨ 🌴 🐣 🍭",
-  "version" : "1.0",
+  "version" : "0.0.0.1",
 
   "permissions": [
     "activeTab"
