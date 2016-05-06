@@ -1,4 +1,4 @@
-## trollmoji
+## Trollmoji
 
 This is a Chrome extension that translates nasty troll terms into 💕emojis✨. 
 
