@@ -1,6 +1,6 @@
 ## Trollmoji
 
-This is a Chrome extension that translates nasty troll terms into 💕emojis✨. 
+This is a Chrome extension that translates nasty troll terms into 💕 emojis ✨. 
 
 It's not about sanitizing, but making your browser a place with less hate and more 🌺 🐣 🙊 🐳. 
 
